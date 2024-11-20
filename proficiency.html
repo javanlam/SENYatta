@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENyatta - Speech Training Bot</title>
+    <link rel="stylesheet" href="css/proficiency.css" />
+    <link rel="stylesheet" href="https://pyscript.net/releases/2023.11.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2023.11.1/core.js"></script>
+</head>
+
+<body>
+
+    <!-- <py-script src="py/proficiency.py"></py-script> -->
+
+    <!-- <script>
+        function runpython() {
+            var pythonscriptpath = "py/proficiency.py";
+            subprocess.run(["python", pythonscriptpath]);
+        }
+    </script> -->
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- <script>
+        function runpython(){
+            $.ajax({
+              url: "py/proficiency.py",
+             context: document.body
+            }).done(function() {
+             alert('finished python script');;
+            });
+        }
+    </script> -->
+
+    <header id="head">
+        <h1>SENyatta</h1>
+        <button onclick="window.location.assign('index.html')">Home</button>
+    </header>
+
+
+    <button onclick="runpython()">Run Script</button>
+
+</body>
+
+</html>

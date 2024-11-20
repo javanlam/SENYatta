@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENyatta - Speech Training Bot</title>
+    <link rel="stylesheet" href="css/roleplay-mc.css" />
+    <script src="js/roleplay-mc1.js"></script>
+</head>
+
+<body id="body" style="background: linear-gradient(0deg, rgba(20,20,20,0.6), rgba(20,20,20,0.6)), url(/../Chatbot/images/directions-etst.jpg);
+                        background-size: 100vw 100vh;
+                        background-repeat: no-repeat;">
+
+    <header id="head">
+        <h1>SENyatta</h1>
+        <button onclick="window.location.assign('index.html')">主頁面</button>
+    </header>
+
+    <div id="progress-box">
+        <progress id="roleplay-progress" value="0" max="4"></progress>
+    </div>
+
+    <h2 id="instructions">你現正身處尖東站，你打算前往太空館，但你不知道如何步行前往，而你又不懂得看地圖。</h2>
+
+    <button id="start" onclick="start()">開始</button>  
+
+    <div id="mc" style="display: none;">
+        <img src="images/talkinghead-mtrstaff.png" id="mc-face" style="display: none;">
+        <p id="instructions-mc"></p>
+        <div id="question-box">
+            <p id="question"></p>
+        </div>
+
+        <img src="" id="extra-image">
+
+        <img src="images/user-icon.png" id="user-face">
+
+        <div id="answer-box">
+            <button class="answer" id="answer1" onclick="choice='staff'; update();"></button><br>
+            <button class="answer" id="answer2" onclick="choice='stranger'; update();"></button>
+        </div>
+
+        <button class="answer" id="continue" onclick="update()" style="display: none;">繼續</button>
+        
+        <button class="answer" id="tryagain" onclick="i=0; update();" style="display: none;">再試一次</button>
+        <button class="answer" id="next" onclick="i+=2; update();" style="display: none;">下一個練習</button>
+    </div>
+
+
+
+
+</body>
+
+</html>
