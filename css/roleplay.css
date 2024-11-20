@@ -1,0 +1,120 @@
+html {
+    height: 100;
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(Fonts/Avenir-Next-Font.ttf);
+}
+
+body {
+    height: 100%;
+    margin: 0%;
+    font-family: Avenir;    
+    background-color: #F7ECCE;
+}
+
+#head {
+    width: 100%;
+    background: #EBC041;
+    padding: 3px 0px 3px 0px;
+    position: sticky;
+    display: flex;
+    gap: 1.5vw;
+}
+
+#head h1 {
+    margin-left: 20px;
+}
+
+#head button {
+    border: none;
+    border-radius: 15px;
+    background: #A17F18;
+    color: white;
+    font-family: Avenir;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 0px 15px 0px 15px;
+}
+
+#head button:hover {
+    background: #121212; 
+}
+
+#instructions {
+    padding-top: 2px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    padding-bottom: 15vh;
+    color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 10vh;
+    gap: 2vw;
+    padding-bottom: 30vh;
+}
+
+.box {
+    border-radius: 20px;
+    border: none;
+    align-items: center;
+    text-align: center;
+    width: 40vw;
+    height: 35vh;
+    color: white;
+    text-shadow: 2px 2px #121212;
+    cursor: pointer;
+    transition: transform 0.3s;
+    background-size: cover;
+}
+
+.box:hover {
+    transform: scale(1.03);
+}
+
+#box-enquiries {
+    background-image: linear-gradient(0deg, rgba(20,20,20,0.6), rgba(20,20,20,0.6)), url(/../Chatbot/images/customer-service.jpeg);
+}
+
+#box-enquiries:hover {
+    background-image: url(/../Chatbot/images/customer-service.jpeg);
+}
+
+#box-restaurant {
+    background-image: linear-gradient(0deg, rgba(20,20,20,0.6), rgba(20,20,20,0.6)), url(/../Chatbot/images/restaurant.jpg);
+}
+
+#box-restaurant:hover {
+    background-image: url(/../Chatbot/images/restaurant.jpg);
+}
+
+#box-supermarket {
+    background-image: linear-gradient(0deg, rgba(20,20,20,0.6), rgba(20,20,20,0.6)), url(/../Chatbot/images/supermarket.jpg);
+}
+
+#box-supermarket:hover {
+    background-image: url(/../Chatbot/images/supermarket.jpg);
+}
+
+#box-friend {
+    background-image: linear-gradient(0deg, rgba(20,20,20,0.6), rgba(20,20,20,0.6)), url(/../Chatbot/images/friend.jpg);
+}
+
+#box-friend:hover {
+    background-image: url(/../Chatbot/images/friend.jpg);
+}
+
+#box-disneyland {
+    background-image: linear-gradient(0deg, rgba(20,20,20,0.6), rgba(20,20,20,0.6)), url(/../Chatbot/images/disneyland.jpg);
+}
+
+#box-disneyland:hover {
+    background-image: url(/../Chatbot/images/disneyland.jpg);
+}

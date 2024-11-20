@@ -1,0 +1,91 @@
+html {
+    height: 100;
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(Fonts/Avenir-Next-Font.ttf);
+}
+
+body {
+    height: 100%;
+    margin: 0%;
+    font-family: Avenir;
+}
+
+#head {
+    width: 100%;
+    background: #EBC041;
+    padding: 3px 0px 3px 0px;
+    position: sticky;
+}
+
+#head h1 {
+    margin-left: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 30px 0px 0px 0px;
+    color: white;
+    text-shadow: 2px black;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: 5vw;
+    height: 10vh;
+}
+
+#buttons button {
+    border: none;
+    border-radius: 15px;
+    background: #A17F18;
+    color: white;
+    font-family: Avenir;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 5px 8px 5px 8px;
+}
+
+#buttons button:hover {
+    color: black;
+    background: #EBC041; 
+}
+
+#button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: auto;
+    border: none;
+    border-radius: 15px;
+    background: #A17F18;
+    color: white;
+    font-family: Avenir;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 5px 8px 5px 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#button1:hover {
+    color: black;
+    background: #EBC041; 
+}
+
+#title2 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 30px 0px 0px 0px;
+    color: white;
+    text-shadow: 2px black;
+}

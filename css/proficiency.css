@@ -1,0 +1,43 @@
+html {
+    height: 100;
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(Fonts/Avenir-Next-Font.ttf);
+}
+
+body {
+    height: 100%;
+    margin: 0%;
+    font-family: Avenir;    
+    background-color: #F7ECCE;
+}
+
+#head {
+    width: 100%;
+    background: #EBC041;
+    padding: 3px 0px 3px 0px;
+    position: sticky;
+    display: flex;
+    gap: 1.5vw;
+}
+
+#head h1 {
+    margin-left: 20px;
+}
+
+#head button {
+    border: none;
+    border-radius: 15px;
+    background: #A17F18;
+    color: white;
+    font-family: Avenir;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 0px 15px 0px 15px;
+}
+
+#head button:hover {
+    background: #121212; 
+}
